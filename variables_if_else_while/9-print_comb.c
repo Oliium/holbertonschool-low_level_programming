@@ -12,10 +12,10 @@ int main(void)
 	for (combo = 0; combo <= 9; combo++)
 		{
 			if (combo != 0)
-				putchar(' ');
-				putchar('0' + combo);
+			putchar(' ');
+			putchar('0' + combo);
 			if (combo != 9)
-				putchar(',');
+			putchar(',');
 		}
 	putchar('\n');
 	return (0);
