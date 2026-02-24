@@ -9,10 +9,6 @@ int main(void)
 	int combo;
 
 	for (combo =0; combo <= 9; combo++)
-	{
-		int second_combo;
-
-		for (second_combo = combo + 1; second_combo <= 9; second_combo++)
 		{
 			if (combo != 0)
 			{
