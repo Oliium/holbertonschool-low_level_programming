@@ -4,7 +4,7 @@
 * main - Entry point
 * Return: Always 0
 */
-void _putchar(char c)
+int _putchar(char c);
 
 int main(void)
 {
