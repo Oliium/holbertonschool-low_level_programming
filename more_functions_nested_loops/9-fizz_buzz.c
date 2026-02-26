@@ -9,7 +9,7 @@
 * print FizzBuzz instead of the number
 * Return: Always 0 (Success)
 */
-void fizz_buzz(void)
+int main(void)
 {
 	int i;
 
