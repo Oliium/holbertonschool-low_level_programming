@@ -7,6 +7,7 @@
 * For multiples of five, print Buzz instead of the number
 * For numbers which are multiples of both three and five,
 * print FizzBuzz instead of the number
+* Return: Always 0 (Success)
 */
 void fizz_buzz(void)
 {
