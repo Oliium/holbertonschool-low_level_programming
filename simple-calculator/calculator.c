@@ -36,4 +36,5 @@ int main (void)
 		result = num1 + num2;
 		printf("The Game result is: %d\n", result);
 	}
+	return (0);
 }
