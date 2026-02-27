@@ -6,6 +6,7 @@
 int main (void)
 {
 	int num0, num1, num2, result;
+    float Divresult, number1, number2;
 
 	printf("Hi, Welcome to THE GAME\n");
 	printf(" 1 is for Addition\n");
@@ -60,16 +61,16 @@ int main (void)
 	{
 		printf("Welcome to the Division Difficulty !\n");
 		printf("Enter number 1: ");
-		scanf("%d", &num1);
+		scanf("%f", &number1);
 		printf("Enter number 2: ");
-		scanf("%d", &num2);
-		if (num2 == 0)
+		scanf("%f", &number2);
+		if (number2 == 0)
 		{
 			printf("You're not allow to be here !\n");
 			return (0);
 		}
-		result = num1 / num2;
-		printf("The Game result is: %d\n", result);
+		Divresult = number1 / number2;
+		printf("The Game result is: %.2f\n", Divresult);
 	}
 	return (0);
 }
