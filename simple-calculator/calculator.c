@@ -36,5 +36,40 @@ int main (void)
 		result = num1 + num2;
 		printf("The Game result is: %d\n", result);
 	}
+	if (num0 == 2)
+	{
+		printf("Welcome to the Subtraction Difficulty !\n");
+		printf("Enter number 1: ");
+		scanf("%d", &num1);
+		printf("Enter number 2: ");
+		scanf("%d", &num2);
+		result = num1 - num2;
+		printf("The Game result is: %d\n", result);
+	}
+	if (num0 == 3)
+	{
+		printf("Welcome to the Multiplication Difficulty !\n");
+		printf("Enter number 1: ");
+		scanf("%d", &num1);
+		printf("Enter number 2: ");
+		scanf("%d", &num2);
+		result = num1 * num2;
+		printf("The Game result is: %d\n", result);
+	}
+	if (num0 == 4)
+	{
+		printf("Welcome to the Division Difficulty !\n");
+		printf("Enter number 1: ");
+		scanf("%d", &num1);
+		printf("Enter number 2: ");
+		scanf("%d", &num2);
+		if (num2 == 0)
+		{
+			printf("You're not allow to be here !\n");
+			return (0);
+		}
+		result = num1 / num2;
+		printf("The Game result is: %d\n", result);
+	}
 	return (0);
 }
