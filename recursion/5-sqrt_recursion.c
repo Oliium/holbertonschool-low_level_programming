@@ -7,7 +7,7 @@
  * Return: The natural square root of the number
  */
 
-static int sqrt_helper(int n, int i)
+int sqrt_helper(int n, int i)
 {
 	long sq = (long)i * i;
 
