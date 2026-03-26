@@ -6,7 +6,8 @@
  * @d: current divisor
  * Return: 1 if prime, 0 otherwise
  */
-static int prime_helper(int n, int d)
+
+int prime_helper(int n, int d)
 {
 	if ((long)d * d > n)
 	{
@@ -24,6 +25,7 @@ static int prime_helper(int n, int d)
  * @n: number to test
  * Return: 1 if prime, 0 otherwise
  */
+
 int is_prime_number(int n)
 {
 	if (n <= 1)
